@@ -1,0 +1,19 @@
+{
+    "name": "tamasaka-encoder",
+    "description": "玉坂家秘伝の技でお兄ちゃんのJavaScriptを難読化しちゃうよ。",
+    "version": "0.0.1",
+    "bin": { "makotify": "./bin/tamasaka-encoder.js" },
+    "author": "Tamasaka Makoto",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "@types/node": "^12.12.14",
+        "typescript": "^3.7.3",
+        "commander": "^4.0.1",
+        "ts-node": "^8.5.4"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "ts-node tamasaka-encoder.ts"
+    }
+}
