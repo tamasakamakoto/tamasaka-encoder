@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import program from 'commander';
-import info from './package.json';
+import info from '../package.json';
 import * as path from 'path';
 import * as fs from 'fs';
 

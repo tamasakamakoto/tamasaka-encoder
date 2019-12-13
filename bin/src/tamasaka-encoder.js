@@ -12,7 +12,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var commander_1 = __importDefault(require("commander"));
-var package_json_1 = __importDefault(require("./package.json"));
+var package_json_1 = __importDefault(require("../package.json"));
 var path = __importStar(require("path"));
 var fs = __importStar(require("fs"));
 commander_1.default.version(package_json_1.default.name + ' v' + package_json_1.default.version)

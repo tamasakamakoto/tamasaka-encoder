@@ -14,6 +14,6 @@
     },
     "scripts": {
         "build": "tsc",
-        "test": "ts-node tamasaka-encoder.ts"
+        "run": "ts-node ./src/tamasaka-encoder.ts"
     }
 }
