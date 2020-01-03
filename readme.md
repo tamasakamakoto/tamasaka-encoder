@@ -1,5 +1,5 @@
 # Tamasaka Encoder for NodeJS
-[![Build Status](https://travis-ci.com/tamasakamakoto/tamasaka-encoder.svg?branch=master)](https://travis-ci.com/tamasakamakoto/tamasaka-encoder)
+ [![Build Status](https://travis-ci.com/tamasakamakoto/tamasaka-encoder.svg?branch=master)](https://travis-ci.com/tamasakamakoto/tamasaka-encoder) [![npm version](https://badge.fury.io/js/tamasaka-encoder.svg)](https://badge.fury.io/js/tamasaka-encoder)
 
 玉坂家秘伝の技でお兄ちゃんのJavaScriptを難読化（Makotify）しちゃうよ。
 
@@ -21,8 +21,16 @@ After Makotify: `hello-tamasaka.mkt.js`
 
 # Install
 
+To install tamasaka-encoder in global environment:
+
 ```shell
-$ cd tamasaka-encoder && yarn install && yarn link
+$ npm install -g tamasaka-encoder
+```
+
+or
+
+```shell
+$ yarn global add tamasaka-encoder
 ```
 
 # Command line usage
