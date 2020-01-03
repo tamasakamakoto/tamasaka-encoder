@@ -3,20 +3,27 @@
   "description": "玉坂家秘伝の技でお兄ちゃんのJavaScriptを難読化しちゃうよ。",
   "version": "0.0.1",
   "bin": {
-    "tamasaka-encoder": "./bin/tamasaka-encoder.js",
-    "makotify": "./bin/tamasaka-encoder.js"
+    "tamasaka-encoder": "./bin/src/main.js",
+    "makotify": "./bin/src/main.js"
   },
   "author": "Tamasaka Makoto",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "commander": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
     "@types/node": "^12.12.14",
-    "typescript": "^3.7.3",
     "commander": "^4.0.1",
-    "ts-node": "^8.5.4"
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
   },
   "scripts": {
+    "test": "jest",
     "build": "tsc",
-    "test": "ts-node tamasaka-encoder.ts"
+    "run": "ts-node ./src/main.ts"
   }
 }
