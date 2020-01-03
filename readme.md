@@ -1,4 +1,5 @@
 # Tamasaka Encoder for NodeJS
+[![Build Status](https://travis-ci.com/tamasakamakoto/tamasaka-encoder.svg?branch=master)](https://travis-ci.com/tamasakamakoto/tamasaka-encoder)
 
 玉坂家秘伝の技でお兄ちゃんのJavaScriptを難読化（Makotify）しちゃうよ。
 
