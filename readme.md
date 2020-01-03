@@ -4,6 +4,10 @@
 
 # What is Tamasaka Encoder
 
+Tamasaka Encoder obfuscates your JavaScript. This obfuscation idea is based on [kusano-k’s blog](https://kusano-k.hatenadiary.com/entry/20120421/1335006525) .
+
+Following is an example encode.
+
 Before Makotify: `hello-tamasaka.js`
 ```js
 console.log('お兄ちゃん大好き！')
@@ -17,7 +21,7 @@ After Makotify: `hello-tamasaka.mkt.js`
 # Install
 
 ```shell
-$ cd tamasaka-encoder && yarn link
+$ cd tamasaka-encoder && yarn install && yarn link
 ```
 
 # Command line usage
