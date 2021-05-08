@@ -1,7 +1,7 @@
 {
   "name": "tamasaka-encoder",
   "description": "玉坂家秘伝の技でお兄ちゃんのJavaScriptを難読化しちゃうよ。",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
     "tamasaka-encoder": "./bin/tamasaka-encoder.js",
     "makotify": "./bin/tamasaka-encoder.js"
